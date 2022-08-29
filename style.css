@@ -195,6 +195,31 @@ footer .copyright {
     width: 100%;
     text-align: center;
 }
+
+ @media (max-width: 477px) {
+        .section-p1{
+            padding: 20px;
+        }
+
+        h1 {
+            font-size: 38px;
+        }
+
+        h2 {
+            font-size: 32px;
+        }
+
+        #newsletter {
+            padding: 40px 20px;
+        }
+
+        #newsletter .form {
+            width: 100%;
+        }
+
+        footer .copyright {
+            text-align: start;
+        }
 *{
     box-sizing: border-box;
 }
